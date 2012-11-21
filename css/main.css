@@ -1,0 +1,438 @@
+/********************************************************************************
+	CSS Estilos
+	Nombre: Configuracion
+	Responsable: Mario R.
+********************************************************************************/
+
+
+#protesta {
+    text-align: justify;
+    font-weight: bold;
+}
+
+#articulo-133 > h1 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+#articulo-133 > p {
+    text-align: justify;
+}
+
+/********************************************************************************
+	CSS Estilos
+	Nombre: Asignacion de documentos
+	Responsable: Noemi M.
+********************************************************************************/
+
+ul {
+    list-style-type: none;
+    margin: 5%;
+}
+
+.seccion1, .seccion2 {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0pt 0pt 2px gray;
+    float: left;
+    height: 500px;
+    margin: 4%;
+    width: 40%;
+}
+
+.seccion1-1 {
+    border-radius: 15px 15px 15px 15px;
+     
+	 box-shadow: 0pt 0pt 2px gray;
+    height: 25%;
+    margin: 5%;
+    width: 90%;
+}
+
+.seccion1-2 {
+    border-radius: 15px 15px 15px 15px;
+	box-shadow: 0pt 0pt 2px gray;
+    height: 50%;
+    margin: 5%;
+    overflow-y: auto;
+	overflow-x:hidden;
+    width: 90%;
+}
+
+.seccion1-3:hover{
+	cursor:pointer;
+	box-shadow:0 0 3px gray;
+}
+
+.seccion1-3 {
+    border-radius: 0px 15px 15px 15px;
+    border: 1px solid gray;
+    float: left;
+    height: 100px;
+    margin: 13pt 13px 50px;
+    width: 100px;
+}
+.seccion1-3-1 {
+    border-radius: 0px 15px 15px 15px;
+    border: 1px solid gray;
+    float: left;
+    height: 100px;
+    margin: 50px 50px 50px 50px;
+    width: 100px;
+}
+
+.seccion1-4 {
+    border: 1px solid;
+    height: 12%;
+    margin: 1%;
+    padding: 2%;
+    width: 92%;
+}
+
+.seccion3 {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0pt 0pt 2px gray;
+    height: 600px;
+    margin: 2%;
+}
+
+.seccion3-1 {
+	border-radius: 15px 15px 15px 15px;
+    box-shadow: 0pt 0pt 2px gray;
+    height: 70%;
+    margin: 4%;
+    overflow-y: auto;
+}
+
+
+.seccion3-2 {
+	border: 1px solid white;
+    font-size: 11px;
+    height: 50px;
+    margin: 13% 5% 2% 0%;
+    text-align: center;
+	text-transform: uppercase;
+	width: 100px;
+}
+.seccion3-3 {
+    border: 1px solid white;
+    height: 10%;
+    margin: 85% -5% 2% 6%;
+    position: relative;
+}
+
+.seleccion-documento {
+    border: 1px solid white;
+    position: relative;
+	top: 0px;
+    left:0px;
+    
+}
+
+.etiqueta-documento {
+    border: 1px solid;
+    margin: 7px;
+}
+.formato2 {
+	font-family: "Arial";
+    font-size: 1em;
+    font-weight: bold;
+	color:red;
+	
+	}
+.formato {
+	font-family: "Arial";
+    font-size: 1em;
+    font-weight: bold;
+	color:;
+	
+	}
+.pdf2
+{
+    border: medium none;
+    height: 76px;
+    margin: -2%;
+}
+.secciontext
+{
+	border: 1px solid white;
+    left: 10px;
+    position: relative;
+    top: 15px;
+}
+a.usuario {
+	background: url("../img/sistema.png") repeat scroll -173px 540px transparent;
+    display: block;
+    height: 74px;
+    width: 60px;
+	margin:auto;
+	box-shadow: 0 0 2px gray;	
+}
+.usuario
+{
+    border: medium none;
+    height: 0%;
+    margin: 3%;
+}
+input.span4 {
+    height: 26px;
+	width:100px;
+}
+
+#informacion{
+    text-align: justify;
+    font-weight: bold;
+}
+.contenedor-tablas
+{
+	
+	border: 1px solid white;
+	height: 100px;
+	overflow-y: auto;
+	
+}
+
+.brand-3{
+    color: #999999;
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1;
+    margin-left: -20px;
+    padding: 12px 20px 12px;
+	width:440px;
+	text-decoration: none;  
+	
+}
+a.brand-3:hover
+{
+text-decoration: none; 
+color: white;
+}
+.active2
+{
+    text-decoration: none;
+	width:300px;
+}
+
+/********************************************************************************
+	CSS Estilos
+	Nombre: Estado de la captura
+	Responsable: David P.
+********************************************************************************/
+
+a.ver {
+	background: url(../img/inc.png) repeat scroll 184px 142px transparent;
+	width:34px;
+	display: block;
+	height:30px;
+	margin:auto;	
+}
+a.no-ver {
+    background: url("../img/inc.png") repeat scroll 322px 163px transparent;
+    display: block;
+    height: 32px;
+    margin: auto;
+    width: 34px;
+}
+div.navbar-separador
+{
+	min-height: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #C3C3C3;
+	text-align:center;
+	color:#999999;
+	border:1px solid #C3C3C3;
+	font-size:.85em;
+}
+
+
+div#indicadores .row-fluid:nth-child(odd):not(#indicadores-headers) 
+{
+
+    background-color: GhostWhite;
+	border: 1px solid Gainsboro;
+}
+
+
+div#encabezado
+{
+    font-family: "Arial";
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+div.categorias
+{
+	font-family:"Arial";
+	
+}
+
+div.row-fluid
+{
+border:1px solid white;
+}
+
+form#botones {
+     left: 380px;
+     position: relative;
+     top: 170px;
+     width: 60%;
+}
+ .text-area {
+    margin-top: 11px;
+}
+.seccion5
+ {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 2px gray;
+    height: 85%;
+    margin: 0%;
+	padding:2%;
+    width: 17%;
+    float: left;
+}
+a.pdf {
+	background: url("../img/sistema.png") repeat scroll 152px 358px transparent;
+    display: block;
+    height: 74px;
+    width: 60px;
+	margin:auto;
+	box-shadow: 0 0 2px gray;	
+}
+.pdf
+{
+    border: none;
+    height: 76px;
+    margin: 12%;
+}
+.seccion1-1-1 
+{
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 2px gray;
+    height: 22%;
+    margin: 3%;
+    width: 94%;
+	margin-bottom: 5%;
+}
+.seccion3-2-1
+ {
+	border: 1px solid white;
+    height: 0%;
+    margin: 15% 0% 0% 1%
+}
+
+.seccionlarge {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 2px gray;
+    height: 25%;
+    padding: 1%;
+    width: 97%;
+	margin-top: 2%;
+    overflow-y: auto;
+
+}
+.seccionconter {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 2px gray;
+    height: 68%;
+    margin: 0;
+    padding: 1%;
+    width: 97%;
+}
+
+a.firefox 
+{
+    background: url("../img/buscadores.png") repeat scroll 112px 0px transparent;
+    
+    display: block;
+    height: 58px;
+	margin-top: -5px;
+    width: 58px;
+	margin-left: 12px;
+    margin-bottom: 3px;
+}
+a.chrome
+{
+    background: url("../img/buscadores.png") repeat scroll 82px 276px   transparent;
+    
+    display: block;
+    height: 58px;
+    margin-top: -5px;
+    width: 58px;
+	margin-left: 12px;
+    margin-bottom: 3px;
+}
+a.safari
+{
+   background: url("../img/buscadores.png") repeat scroll -192px 54px transparent;
+    display: block;
+    height: 58px;
+    margin-top: -5px;
+    width: 58px;
+	margin-left: 18px;
+    margin-bottom: 3px;
+}
+a.opera {
+    background: url("../img/buscadores.png") repeat scroll 1px 110px transparent;
+    display: block;
+    height: 58px;
+    margin-top: -5px;
+    width: 61px;
+	margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.seccion3-2-1-2
+ {
+    height: 0%;
+    margin: -1% 0 0 1%;
+}
+
+.position {
+    position:relative;
+    margin-left: 8px;
+}
+
+
+.active
+{
+    background-color: #0088CC;
+    color: #FFFFFF;
+    text-decoration: none;
+	width:400px;
+}
+.brand-2{
+    color: #999999;
+    display: block;
+    float: left;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1;
+    margin-left: -20px;
+    padding: 8px 20px 12px;
+	width:358px;
+	text-decoration: none;  
+	
+}
+a.brand-2:hover
+{
+text-decoration: none; 
+color: white;
+}
+div.preda {
+    background: url("../img/logopreda.png") repeat scroll 0 0 transparent;
+    height: 241px;
+    margin-bottom: 3%;
+    margin-left: 14%;
+    width: 75%;
+  
+}
+div.textopreda {
+    height: 45%;
+    margin-bottom: 0;
+    margin-left: 3%;
+    margin-top: -1%;
+    width: 94%;
+	text-align: justify;
+}
